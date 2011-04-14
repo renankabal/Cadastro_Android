@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/layoutPrincipal">
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/profile"></ImageView>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="Lista de Pessoas Cadastradas:" android:textSize="20sp"></TextView>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/layoutNome">
+            <TextView android:text="Nome" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:textSize="20sp"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:id="@+lista/txtNome"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+lista/txtProfissao">
+            <TextView android:text="Profissão" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:textSize="20sp"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:id="@+id/txtProfissao"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/layoutEmails">
+            <TextView android:text="E-mail" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:textSize="20sp"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:id="@+lista/txtEmail"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:id="@+id/layoutBotoes">
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+lista/btVoltar" android:text="Voltar"></Button>
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+lista/btAvancar" android:text="Avançar"></Button>
+        </LinearLayout>
+        <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+lista/btMenu" android:text="Menu Principal"></Button>
+    </LinearLayout>
+</LinearLayout>

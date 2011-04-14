@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+principal/cadastrar">
+    <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/profile"></ImageView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="Bem vindo ao Cadastro de Contatos! Escolha uma das opções abaixo:"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+principal/btCadastrar" android:text="Cadastro de Contatos"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+principal/btListar" android:text="Listar Contatos"></Button>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical">
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/profile" android:layout_height="wrap_content"></ImageView>
+        <TextView android:text="Módulo de Cadastro - Digite os dados abaixo:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+        <TextView android:text="Nome:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2"></TextView>
+        <EditText android:text="EditText" android:layout_height="wrap_content" android:id="@+cadastro/edNome" android:layout_width="match_parent"></EditText>
+        <TextView android:text="Profissão:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3"></TextView>
+        <EditText android:text="EditText" android:layout_height="wrap_content" android:id="@+cadastro/edProfissao" android:layout_width="match_parent"></EditText>
+        <TextView android:text="E-mail:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4"></TextView>
+        <EditText android:text="EditText" android:layout_height="wrap_content" android:id="@+cadastro/edEmail" android:layout_width="match_parent"></EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:gravity="center">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+cadastro/btCadastrar" android:text="Cadastrar Pessoas"></Button>
+        <Button android:text="Cancelar" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+cadastro/btCancelar"></Button>
+    </LinearLayout>
+</LinearLayout>
